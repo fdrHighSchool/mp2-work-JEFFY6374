@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+
+  public static void main(String[] args) {
+
+    // year to be checked
+    int year;
+    Scanner s = new Scanner(System.in);
+    System.out.print("Enter a year: ");
+    year = s.nextInt();
+    boolean leap = false;
+if (year % 4 != 0 || (year % 100 == 0 &&  year % 400 != 0)) {
+       System.out.println("This is not a loop year");
+}
+    else {
+      System.out.println("This is a loop year");
+    }
+  }
+}
