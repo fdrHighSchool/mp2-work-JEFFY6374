@@ -20,18 +20,22 @@
   * if [x == 10] {
 
     * Inconnect
+    if (x == 10){ 
 
   * if x = 10 then {
 
-    * **YOUR WRITING HERE**
+    * Incorrect
+    if (x == 10) {
+    System.out.println(""); 
 
   * if (x equals 42) {
 
-    * **YOUR WRITING HERE**
+    * Incorrect
+     if (x == 42) {
 
   * if (x => y) {
 
-    * **YOUR WRITING HERE**
+    * Correct
 
 
 3. Fix the error in the code below:
@@ -45,4 +49,5 @@
   }
   ```
 
-  * **YOUR WRITING HERE**
+  * On line 46 it says "console.next", the correct way to write it is: 
+  String name = console.nextLine();
