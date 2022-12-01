@@ -15,11 +15,11 @@
 2. Label each as either correct or incorrect syntax. If incorrect, rewrite below:
   * if (x == y) {
 
-    * **YOUR WRITING HERE**
+    * Correct
 
   * if [x == 10] {
 
-    * **YOUR WRITING HERE**
+    * Inconnect
 
   * if x = 10 then {
 
