@@ -1,0 +1,3 @@
+public static int countQuarters(int cents) {
+    return cents % 100/25;
+}
