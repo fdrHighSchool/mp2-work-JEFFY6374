@@ -21,4 +21,4 @@ for(int i = 0; i < s.length(); i++) {
       // DO STUFF
 }
 ```
-  * **YOUR WRITING HERE**
+  * The value for the s indicates how much times the for loop will run before the code breaks for example if the s is identified as 5. The for loop will run 5 times, but if it loops until the number 5 or more the for loop breaks so therefore the code will end.
