@@ -7,7 +7,7 @@
 
   * `.substring(a, b)`
     * substring(a, b) will substitute whatever number is between a and b out from the string, so for example if the string is apple and the substring is like (0,2) it will remove the first three letters, therefore the printed string will be "le". 
-To 
+
   * `.indexOf(str)`
     * **YOUR WRITING HERE**
 
