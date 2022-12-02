@@ -9,11 +9,10 @@
     * substring(a, b) will substitute whatever number is between a and b out from the string, so for example if the string is apple and the substring is like (0,2) it will remove the first three letters, therefore the printed string will be "le". 
 
   * `.indexOf(str)`
-    * **YOUR WRITING HERE**
+    * indexOf will make it so when it reaches the first occurence it will stop, for example if the string is "apple" and .indexOf is .indexOf(p), it will stop at the first p we see. 
 
   * `.equals(str)`
-    * **YOUR WRITING HERE**
-
+    * It will compare the two strings so if somethings equals to the (str), it will print as true since it equals each other. 
 
 2. *In your own words*, discuss what the following `for` loop accomplishes for `String s`:
 ```
