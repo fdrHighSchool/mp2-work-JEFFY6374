@@ -3,7 +3,7 @@
 
 1. *In your own words*, discuss what each String method does:
   * `.substring(a)`
-    * **YOUR WRITING HERE**
+    * substring(a) is a method is sub out whatever number you put for (a), whatever number you put in, it will sub out what you put in it, for example substring(0) for the string apple, it will print out "a". 
 
   * `.substring(a, b)`
     * substring(a, b) will substitute whatever number is between a and b out from the string, so for example if the string is apple and the substring is like (0,2) it will remove the first three letters, therefore the printed string will be "le". 
