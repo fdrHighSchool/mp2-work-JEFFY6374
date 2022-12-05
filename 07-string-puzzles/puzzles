@@ -30,5 +30,10 @@ class Main {
   }
   
 }
+
+class Main{
+  public static void main(String[] args){
+  String1 = "apple";
+  System.out.print(String1.length/2);
     
 
