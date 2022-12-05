@@ -1,0 +1,15 @@
+public class Main{
+  public static void main(String[] args){
+    System.out.print(divide(3));
+  }
+  
+  public static boolean divide(int number){
+    if(number % 3 == 0){
+    return true;
+    }
+    else{
+      return false;
+    }
+  }
+}
+//use mod % 10, but forgot how to input it
