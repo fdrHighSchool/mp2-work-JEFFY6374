@@ -3,20 +3,6 @@ class Main{
     System.out.println(countHi("abc hi ho"));
     System.out.println(countHi("hihi"));
     
-  }
-public static int countHi(String str) {
-  int count = 0;
-  for(int i = 0; i <= str.length() - 2; i++){
-    if (str.substring(i, i + 2).equals("hi")){
-      count++;
-      }
-    }
-  return count; 
-  }
-}
-
-class Main {
-  public static void main(String[] args){
     int n = 98; 
     //print 17 --> test passes
     int n2 = 74;
@@ -26,14 +12,23 @@ class Main {
     System.out.println(n % 10 + (n / 10));
     System.out.println(n2 % 10 + (n2 / 10));
     System.out.println(n3 % 10 + (n3 / 10));
-
-  }
-  
-}
-
-class Main{
-  public static void main(String[] args){
-  String1 = "apple";
-  System.out.print(String1.length/2);
     
+    String string1 = "apples";
+  String firsthalf = string1.substring(0, (string1.length()/2));
+  String secondhalf = string1.substring((string1.length()/2));
+    System.out.println(firsthalf);
+    System.out.println(secondhalf);
+    
+  }
 
+  public static int countHi(String str) {
+    int count = 0;
+    for(int i = 0; i <= str.length() - 2; i++){
+      if (str.substring(i, i + 2).equals("hi")){
+        count++;
+        }
+      }
+    return count; 
+    }
+  }
+}
