@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
+    System.out.print("Enter a grade: "); 
+    Double grade = s.nextDouble();
+       String score = Integer.parseInt(grade.substring(grade.length()-1));
+
+
+    if(grade >= 90){
+      System.out.print("A");
+    }
+    if(grade >= 80 && grade < 90){
+      System.out.print("B");
+    }
+    if(grade >= 70 && grade < 80){
+      System.out.print("C");
+    }
+    if(grade >= 60 && grade < 70){
+      System.out.print("D");
+    }
+    if(grade < 60){
+      System.out.print("F");
+
+      if (score >= 7) {
+        System.out.print("+");
+      }
+      if (score <= 3) {
+        System.out.print("-");
+      } 
+      
+      
+      
+    }
+  }
+}
